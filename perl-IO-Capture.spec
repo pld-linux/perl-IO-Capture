@@ -8,13 +8,13 @@
 Summary:	IO::Capture - Abstract Base Class to build modules to capture output
 Summary(pl):	IO::Capture - abstrakcyjna klasa bazowa dla modu³ów przechwytuj±cych wyj¶cie
 Name:		perl-IO-Capture
-Version:	0.03
+Version:	0.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	609fa1b1c7dcdbdb584c74f0eb083c65
+# Source0-md5:	4760036d7fcf9f2cc34f2b2eefd511a4
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
