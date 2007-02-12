@@ -6,7 +6,7 @@
 %define	pdir	IO
 %define	pnam	Capture
 Summary:	IO::Capture - Abstract Base Class to build modules to capture output
-Summary(pl):	IO::Capture - abstrakcyjna klasa bazowa dla modu³ów przechwytuj±cych wyj¶cie
+Summary(pl.UTF-8):   IO::Capture - abstrakcyjna klasa bazowa dla moduÅ‚Ã³w przechwytujÄ…cych wyjÅ›cie
 Name:		perl-IO-Capture
 Version:	0.05
 Release:	1
@@ -28,9 +28,9 @@ The IO::Capture module defines an abstract base class that can be used
 to build modules that capture output being sent on a filehandle such as
 STDOUT or STDERR.
 
-%description -l pl
-Modu³ IO::Capture definiuje abstrakcyjn± klasê bazow±, która mo¿e byæ
-u¿ywana do tworzenia modu³ów przechwytuj±cych wyj¶cie wysy³ane przez
+%description -l pl.UTF-8
+ModuÅ‚ IO::Capture definiuje abstrakcyjnÄ… klasÄ™ bazowÄ…, ktÃ³ra moÅ¼e byÄ‡
+uÅ¼ywana do tworzenia moduÅ‚Ã³w przechwytujÄ…cych wyjÅ›cie wysyÅ‚ane przez
 uchwyt pliku, taki jak STDOUT czy STDERR.
 
 %prep
