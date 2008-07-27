@@ -9,7 +9,7 @@ Summary:	IO::Capture - Abstract Base Class to build modules to capture output
 Summary(pl.UTF-8):	IO::Capture - abstrakcyjna klasa bazowa dla modułów przechwytujących wyjście
 Name:		perl-IO-Capture
 Version:	0.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
