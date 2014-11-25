@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	IO
 %define	pnam	Capture
+%include	/usr/lib/rpm/macros.perl
 Summary:	IO::Capture - Abstract Base Class to build modules to capture output
 Summary(pl.UTF-8):	IO::Capture - abstrakcyjna klasa bazowa dla modułów przechwytujących wyjście
 Name:		perl-IO-Capture
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4760036d7fcf9f2cc34f2b2eefd511a4
+URL:		http://search.cpan.org/dist/IO-Capture/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -25,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The IO::Capture module defines an abstract base class that can be used
-to build modules that capture output being sent on a filehandle such as
-STDOUT or STDERR.
+to build modules that capture output being sent on a filehandle such
+as STDOUT or STDERR.
 
 %description -l pl.UTF-8
 Moduł IO::Capture definiuje abstrakcyjną klasę bazową, która może być
