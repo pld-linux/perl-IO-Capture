@@ -4,7 +4,6 @@
 
 %define	pdir	IO
 %define	pnam	Capture
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO::Capture - Abstract Base Class to build modules to capture output
 Summary(pl.UTF-8):	IO::Capture - abstrakcyjna klasa bazowa dla modułów przechwytujących wyjście
 Name:		perl-IO-Capture
